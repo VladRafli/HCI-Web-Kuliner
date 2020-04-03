@@ -37,6 +37,9 @@
     border: 5px solid;
     border-radius: 25px;
 }
+.landing-about {
+    background-color: lightblue;
+}
 .landing-about i {
     font-size: 64px;
 }
