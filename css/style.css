@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/****
+    --- Navbar ---
+****/
+.nav li a {
+    color: #aaa;
+}
+.nav li a:hover {
+    transition: 0.5s;
+    color: white;
+}
+/****
+    --- Landing Section Styling ---
+****/
+.landing {
+    height: 100vh;
+    background: url("https://cdn.pixabay.com/photo/2016/02/19/11/40/coffee-shop-1209863_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: var(--main-bg-color);
+}
+.landing .layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+/**
+    Info Styling
+**/
+.landing .info {
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+.landing .info h2 {
+    letter-spacing: 3px;
+    font-weight: 450;
+}
+.landing .info p {
+    color: #aaa;
+    letter-spacing: 2px;
+}
+/* Button (Need some inprovement) */
+.landing .info .btn {
+    border: 2px solid white;
+    color: var(--main-bg-color);
+    background-color: lightcoral;
+}
+.landing .info .btn:hover {
+    transition: 0.5s;
+    color: black;
+    background-color: red;
+    border: 2px solid transparent;
+}
+.description {
+    height: 20vh;
+}
+/***
+    --- About ---
+***/
+.about {
+    padding: 45px;
+    background-color: black;
+    color: var(--main-bg-color);
+}
+.about .about-info {
+    height: 700px;
+    padding: 20px;
+}
+.nav .navbar-brand img{
+    width: 10%;
+    height: 10%;
+    object-fit: contain;
+}
+/***
+    --- Footer ---
+***/
+footer {
+    background-color: var(--main-bg-color);
+    color: black;
+}
+footer .spacer{
+    padding-left: 10px;
+    padding-right: 10px;
+}
