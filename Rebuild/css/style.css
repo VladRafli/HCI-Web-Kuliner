@@ -25,7 +25,7 @@
     color: var(--main-bg-color);
 }
 .landing .layer {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to bottom,rgba(14, 17, 17, 0.5), rgba(14, 17, 17, 0.6), rgba(14, 17, 17, 0.7), rgba(14, 17, 17, 0.8), rgba(14, 17, 17, 1));
     height: 100vh;
 }
 /**
@@ -51,7 +51,7 @@
 }
 .landing .info .btn:hover {
     transition: 0.5s;
-    color: black;
+    color: var(--black-bg-color);
     background-color: red;
     border: 2px solid transparent;
 }
@@ -63,19 +63,24 @@
 ***/
 .about {
     padding: 45px;
-    background-color: black;
+    background-color: var(--black-bg-color);
     color: var(--main-bg-color);
 }
 .about .about-info {
     height: 700px;
     padding: 20px;
 }
+.nav .navbar-brand img{
+    width: 10%;
+    height: 10%;
+    object-fit: contain;
+}
 /***
     --- Footer ---
 ***/
 footer {
-    background-color: var(--main-bg-color);
-    color: black;
+    background-color: var(--secondary-bg-color);
+    color: white;
 }
 footer .spacer{
     padding-left: 10px;

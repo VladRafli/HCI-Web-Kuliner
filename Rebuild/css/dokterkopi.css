@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/****
+    --- Navbar ---
+****/
+.nav li a {
+    color: #aaa;
+}
+.nav li a:hover {
+    transition: 0.5s;
+    color: white;
+}
+/****
+    --- Blog ---
+****/
+.main-content{
+    background-color: #3b444b;
+    color: white;
+    height: 250vh;
+}
+.main-content .title{
+    height: 200px;
+    margin: 0;
+}
+.main-content .side{
+    height: 100vh;
+}
+.main-content .main{
+    height: 100vh;
+}
+.main-content .blog-post{
+    border-style: solid;
+}

@@ -15,27 +15,131 @@
         <link rel="stylesheet" href="css/blog.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-md" id="navbar">
-            <div class="navbar-brand">
-                <img src="#" alt="Favicon">
+        <section class="main-content">
+            <nav class="navbar navbar-expand-md" id="navbar">
+                <div class="navbar-brand">
+                    <img src="#"" alt="Favicon">
+                </div>
+                <ul class="nav">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Dokter Kopi</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="title row">
+                <div class="col-12 my-auto">
+                    <h1 class="display-3 text-center">Blog</h1>
+                </div>
             </div>
-            <ul class="nav">
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">Dokter Kopi</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-            </ul>
-        </nav>
-        <section>
-            
+            <div class="row">
+                <div class="side col-2">
+                    <p>Sort By:</p>
+                    <br>
+                    <p>Time</p>
+                    <select id="time" name="time">
+                        <option disabled>Select Time</option>
+                        <option value="recent">Most Recent / Latest</option>
+                        <option value="today">Today</option>
+                        <option value="yesterday">Yesterday</option>
+                        <option value="last week">Last Week</option>
+                        <option value="last month">Last Month</option>
+                        <option value="last year">Last Year</option>
+                    </select>
+                    <br>
+                    <p>Location</p>
+                    <select name="location" id="location">
+                        <option disabled>Select Location</option>
+                        <option value="west malang">West Malang</option>
+                        <option value="east malang">East Malang</option>
+                        <option value="south malang">South Malang</option>
+                        <option value="north malang">North Malang</option>
+                        <option value="central malang">Central Malang</option>
+                    </select>
+                    <br>
+                    <p>Author</p>
+                    <input type="text" name="author" id="author">
+                    <br>
+                    <p>Specific Date</p>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div class="main col-10">
+                    <div class="row">
+                        <div class="col-5 blog-post mx-3 my-3">
+                            <div class="container-fluid">
+                                <div class="post-img text-center">
+                                    <img src="https://cdn.pixabay.com/photo/2020/05/30/17/18/wind-power-plant-5239642_1280.jpg" alt="Post Image" width="480" height="320">
+                                </div>
+                                <div class="post-desc">
+                                    <p>By: Anonymous</p>
+                                    <p><i class="fa fa-calendar" aria-hidden="true"></i> dd/mm/yyyy</p>
+                                </div>
+                                <div class="desc text-center">
+                                    <h1>Title</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam modi, reiciendis odit quod aperiam porro iste, debitis accusamus qui dicta eligendi nostrum rerum beatae dignissimos enim doloribus quas dolore. Culpa!</p>
+                                    <a href="#">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 blog-post mx-3 my-3">
+                            <div class="container-fluid">
+                                <div class="post-img text-center">
+                                    <img src="https://cdn.pixabay.com/photo/2020/05/30/17/18/wind-power-plant-5239642_1280.jpg" alt="Post Image" width="480" height="320">
+                                </div>
+                                <div class="post-desc">
+                                    <p>By: Anonymous</p>
+                                    <p><i class="fa fa-calendar" aria-hidden="true"></i> dd/mm/yyyy</p>
+                                </div>
+                                <div class="desc text-center">
+                                    <h1>Title</h1>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni necessitatibus ea pariatur libero placeat distinctio eius molestiae ullam? Possimus, fugiat eum. Fuga voluptatibus eos quas doloribus voluptate facere, numquam nisi?</p>
+                                    <a href="#">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 blog-post mx-3 my-3">
+                            <div class="container-fluid">
+                                <div class="post-img text-center">
+                                    <img src="https://cdn.pixabay.com/photo/2020/05/30/17/18/wind-power-plant-5239642_1280.jpg" alt="Post Image" width="480" height="320">
+                                </div>
+                                <div class="post-desc">
+                                    <p>By: Anonymous</p>
+                                    <p><i class="fa fa-calendar" aria-hidden="true"></i> dd/mm/yyyy</p>
+                                </div>
+                                <div class="desc text-center">
+                                    <h1>Title</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam modi, reiciendis odit quod aperiam porro iste, debitis accusamus qui dicta eligendi nostrum rerum beatae dignissimos enim doloribus quas dolore. Culpa!</p>
+                                    <a href="#">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 blog-post mx-3 my-3">
+                            <div class="container-fluid">
+                                <div class="post-img text-center">
+                                    <img src="https://cdn.pixabay.com/photo/2020/05/30/17/18/wind-power-plant-5239642_1280.jpg" alt="Post Image" width="480" height="320">
+                                </div>
+                                <div class="post-desc">
+                                    <p>By: Anonymous</p>
+                                    <p><i class="fa fa-calendar" aria-hidden="true"></i> dd/mm/yyyy</p>
+                                </div>
+                                <div class="desc text-center">
+                                    <h1>Title</h1>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni necessitatibus ea pariatur libero placeat distinctio eius molestiae ullam? Possimus, fugiat eum. Fuga voluptatibus eos quas doloribus voluptate facere, numquam nisi?</p>
+                                    <a href="#">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- JQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

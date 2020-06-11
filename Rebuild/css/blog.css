@@ -12,3 +12,27 @@
     transition: 0.5s;
     color: white;
 }
+/****
+    --- Blog ---
+****/
+.main-content{
+    background-color: #3b444b;
+    color: white;
+    height: 200vh;
+}
+.main-content .title{
+    height: 200px;
+    margin: 0;
+}
+.main-content .side{
+    height: 100vh;
+}
+.main-content .main{
+    height: 100vh;
+}
+.main-content .blog-post{
+    border-style: solid;
+}
+.main-content .post-desc p{
+    display: inline;
+}
